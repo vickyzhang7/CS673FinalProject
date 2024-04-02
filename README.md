@@ -27,5 +27,4 @@ You can use:
 export NODE_OPTIONS=--openssl-legacy-provider
 ```
 
-Make sure you have Node.js v20.5.0 installed.
-```
+
