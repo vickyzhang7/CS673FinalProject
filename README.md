@@ -1,5 +1,31 @@
-# Full Stack: Angular and Spring Boot
+# AngularEcommerce
 
+## Backend
+To run the backend, execute `SpringBootEcommerceApplication.java`.
 
-## Product name: ShopSmart 
-FOR startups or mid-sized businesses in need of basic ShopSmart functionality, THE ShopSmart-Innovator is a web-based service THAT offers packaging, product promotion, sales, and other essential features. UNLIKE other platforms like Amazon, which face intense competition, and UNLIKE eBay, a second-hand marketplace that can tarnish product reputation, OUR product provides retailers with a high-end platform, minimizing competitive pressures.
+## Frontend
+1. Navigate to the `angular-ecommerce` directory:
+   ```bash
+   cd FullStack/03-frontend/angular-ecommerce
+   ```
+
+2. Run the development server:
+   ```bash
+   ng serve
+   ```
+
+## Troubleshooting
+If you encounter the following problem:
+```
+opensslErrorStack: [ 'error:03000086:digital envelope routines::initialization error' ],
+library: 'digital envelope routines',
+reason: 'unsupported',
+code: 'ERR_OSSL_EVP_UNSUPPORTED'
+```
+You can use:
+```bash
+export NODE_OPTIONS=--openssl-legacy-provider
+```
+
+Make sure you have Node.js v20.5.0 installed.
+```
