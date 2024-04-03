@@ -1,6 +1,9 @@
 # AngularEcommerce
 
+Ensure Allow invalid certificates for resources loaded from localhost.
+
 ## Backend
+
 To run the backend, execute `SpringBootEcommerceApplication.java`.
 
 ## Frontend
@@ -8,10 +11,14 @@ To run the backend, execute `SpringBootEcommerceApplication.java`.
    ```bash
    cd FullStack/03-frontend/angular-ecommerce
    ```
-
-2. Run the development server:
+2. Build the Stripe
    ```bash
-   ng serve
+   yarn add stripe@8.197.0
+   ```
+
+3. Run the development server:
+   ```bash
+   ng start
    ```
 
 ## Troubleshooting
