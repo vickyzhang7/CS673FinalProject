@@ -8,17 +8,24 @@ To run the backend, execute `SpringBootEcommerceApplication.java`.
 
 ## Frontend
 1. Navigate to the `angular-ecommerce` directory:
+   
    ```bash
-   cd FullStack/03-frontend/angular-ecommerce
+   cd source-code/FullStack/03-frontend/angular-ecommerce
    ```
-2. Build the Stripe
+
+2. Install
+   ```bash
+   yarn install
+   ```
+
+3. Build the Stripe
    ```bash
    yarn add stripe@8.197.0
    ```
 
-3. Run the development server:
+4. Run the development server:
    ```bash
-   ng start
+   npm start
    ```
 
 ## Troubleshooting
