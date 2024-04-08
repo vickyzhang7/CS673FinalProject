@@ -1,8 +1,8 @@
 export default {
 
     oidc: {
-        clientId: '<<ADD-YOUR-CLIENT-ID>>>',
-        issuer: 'https://<<ADD-YOUR-DEV-DOMAIN>>/oauth2/default',
+        clientId: '0oag6vzjlhs2pb8nY5d7',
+        issuer: 'https://dev-85101865.okta.com/oauth2/default',
         redirectUri: 'https://localhost:4200/login/callback',
         scopes: ['openid', 'profile', 'email']
     }
