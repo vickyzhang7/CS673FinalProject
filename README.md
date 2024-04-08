@@ -7,27 +7,44 @@ Ensure Allow invalid certificates for resources loaded from localhost.
 To run the backend, execute `SpringBootEcommerceApplication.java`.
 
 ## Frontend
+
 1. Navigate to the `angular-ecommerce` directory:
-   
-   ```bash
-   cd source-code/FullStack/03-frontend/angular-ecommerce
-   ```
 
-2. Install
-   ```bash
-   yarn install
-   ```
+    ```bash
+    cd source-code/FullStack/03-frontend/angular-ecommerce
+    ```
 
-3. Build the Stripe
-   ```bash
-   yarn add stripe@8.197.0
-   ```
+2. Install dependencies:
 
-4. Run the development server:
-   ```bash
-   npm start
-   ```
+    ```bash
+    yarn install
+    ```
 
+3. Install Okta dependencies:
+
+    ```bash
+    npm install @okta/okta-signin-widget@7.17.1
+    ```
+
+    ```bash
+    npm install @okta/okta-angular@6.4.0
+    ```
+
+    ```bash
+    npm install @okta/okta-auth-js@7.5.1
+    ```
+
+4. Install Stripe for payment integration:
+
+    ```bash
+    yarn add stripe@8.197.0
+    ```
+
+5. Run the development server:
+
+    ```bash
+    npm start
+    ```
 ## Troubleshooting
 If you encounter the following problem:
 ```
