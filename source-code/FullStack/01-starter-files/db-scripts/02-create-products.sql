@@ -104,3 +104,33 @@ unit_price, category_id, date_created)
 VALUES ('BOOK-TECH-1009', 'The Lord of the Rings', 'J.R.R. Tolkien',
 'assets/images/products/books/10.jpg'
 ,1,100,24.99,1, NOW());
+
+
+
+
+INSERT INTO product_category(category_name) VALUES ('CUPS');
+
+INSERT INTO product (sku, name, description, image_url, active, units_in_stock,
+unit_price, category_id, date_created)
+VALUES ('CUP-TECH-1000', 'Yellow cup', '500ml capacity. Keep warm for 4 hours.',
+'assets/images/products/cup/1.jpg'
+,1,100,19.99,2, NOW());
+
+INSERT INTO product (sku, name, description, image_url, active, units_in_stock,
+unit_price, category_id, date_created)
+VALUES ('CUP-TECH-1001', 'Stainless steel cup', '500ml capacity. Keep warm for 4 hours.',
+'assets/images/products/cup/2.jpg'
+,1,100,29.99,2, NOW());
+
+INSERT INTO product (sku, name, description, image_url, active, units_in_stock,
+unit_price, category_id, date_created)
+VALUES ('CUP-TECH-1002', 'White cup', '500ml capacity. Keep warm for 4 hours.',
+'assets/images/products/cup/3.jpg'
+,1,100,24.99,2, NOW());
+
+INSERT INTO product (sku, name, description, image_url, active, units_in_stock,
+unit_price, category_id, date_created)
+VALUES ('CUP-TECH-1003', 'Green cup', '500ml capacity. Keep warm for 4 hours.',
+'assets/images/products/cup/4.jpg'
+,1,100,29.99,2, NOW());
+
