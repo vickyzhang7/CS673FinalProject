@@ -11,7 +11,9 @@ To run the backend, execute `SpringBootEcommerceApplication.java`.
 
 2. Run the development server:
    ```bash
-   ng serve
+   npm install
+   npm i
+   npm run start
    ```
 
 ## Troubleshooting

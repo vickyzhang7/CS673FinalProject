@@ -17,7 +17,8 @@ To run the backend, execute `SpringBootEcommerceApplication.java`.
 2. Install dependencies:
 
     ```bash
-    yarn install
+    npm install
+
     ```
 
 3. Install Okta dependencies:
@@ -43,7 +44,8 @@ To run the backend, execute `SpringBootEcommerceApplication.java`.
 5. Run the development server:
 
     ```bash
-    npm start
+    npm i
+    npm run start
     ```
 ## Troubleshooting
 If you encounter the following problem:
