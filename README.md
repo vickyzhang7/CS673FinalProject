@@ -58,6 +58,8 @@ code: 'ERR_OSSL_EVP_UNSUPPORTED'
 You can use:
 ```bash
 export NODE_OPTIONS=--openssl-legacy-provider
+npm install react-scripts@latest
+
 ```
 
 
